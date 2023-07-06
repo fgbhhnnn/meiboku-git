@@ -1,0 +1,236 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "88e48e3b-7097-416d-884e-452502b63cd3": {
+          "type": "inventory",
+          "settings": {
+            "show_in_stock_quantity": true,
+            "low_inventory_threshold": 0,
+            "show_progress_bar": true,
+            "progress_bar_max_value": 50
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Pairs well with",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        },
+        "1cc9ae53-fce5-435d-82e8-4bf030f178fe": {
+          "type": "reviews",
+          "settings": {
+            "show_star_icon": false,
+            "liquid": "<div id=\"shopify-product-reviews\" data-id=\"{{ product.id }}\">{{ product.metafields.spr.reviews }}<\/div>"
+          }
+        },
+        "f6ddfa3b-68d3-4dc4-a9bf-9869d4e80ce7": {
+          "type": "share_buttons",
+          "settings": {}
+        },
+        "d052bb4a-5651-4dc5-874a-1c759e8886ee": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "88e48e3b-7097-416d-884e-452502b63cd3",
+        "buy_buttons",
+        "complementary_products",
+        "1cc9ae53-fce5-435d-82e8-4bf030f178fe",
+        "f6ddfa3b-68d3-4dc4-a9bf-9869d4e80ce7",
+        "d052bb4a-5651-4dc5-874a-1c759e8886ee"
+      ],
+      "settings": {
+        "container_size": "lg",
+        "product_info_size": 35,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Related products",
+        "title": "関連商品",
+        "content": ""
+      }
+    },
+    "16868183233069af24": {
+      "type": "apps",
+      "blocks": {
+        "f6395083-4732-4c90-9fa3-a8407cfaf330": {
+          "type": "shopify:\/\/apps\/wishlist-hero\/blocks\/custom-product-button\/a9a5079b-59e8-47cb-b659-ecf1c60b9b72",
+          "settings": {
+            "addedCssClassNames": "",
+            "addedContainerStyles": ""
+          }
+        }
+      },
+      "block_order": [
+        "f6395083-4732-4c90-9fa3-a8407cfaf330"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "168713658148324f21": {
+      "type": "apps",
+      "blocks": {
+        "52d5f35d-d416-478f-bff7-20a7b3404906": {
+          "type": "shopify:\/\/apps\/wishlist-hero\/blocks\/header-icon\/a9a5079b-59e8-47cb-b659-ecf1c60b9b72",
+          "settings": {
+            "customThemeName": "~",
+            "useCustomHeaderColor": false,
+            "customHeaderColor": "",
+            "useCustomHeaderSize": false,
+            "customHeaderIconSize": 22,
+            "additionalIconCssClassNames": "",
+            "additionalIconStyle": "",
+            "additionalContainerClasses": "",
+            "additionalContainerStyle": "",
+            "replaceExistingClasses": false
+          }
+        }
+      },
+      "block_order": [
+        "52d5f35d-d416-478f-bff7-20a7b3404906"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
+    "b289e9b7-e90e-4beb-a69b-0fdb003b9fcd": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19430548504865__b289e9b7-e90e-4beb-a69b-0fdb003b9fcd-1687140931da035ca5-0": {
+          "type": "heading",
+          "settings": {
+            "text": "プロジェクトの詳細はこちら",
+            "heading_tag": "h4"
+          }
+        },
+        "template--19430548504865__b289e9b7-e90e-4beb-a69b-0fdb003b9fcd-1687140931da035ca5-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Here are the details of the project.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19430548504865__b289e9b7-e90e-4beb-a69b-0fdb003b9fcd-1687140931da035ca5-0",
+        "template--19430548504865__b289e9b7-e90e-4beb-a69b-0fdb003b9fcd-1687140931da035ca5-1"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/angled-tree-branches-and-green-leaves.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "16868183233069af24",
+    "168713658148324f21",
+    "b289e9b7-e90e-4beb-a69b-0fdb003b9fcd"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "69e934a2-7e58-4257-9e7d-fc5fcd7050cc": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        ".container{margin: 0;}",
+        "}.footer {}",
+        "a,li,p {font-family: var(--heading-font-family);}",
+        ".footer {background: #fafafa;}",
+        ".vCenter {display: grid; place-items: center;}",
+        ".inBox {width: 50%;}",
+        "li {list-style: none; text-align: left; width: 200px;}",
+        ".flex {display: -webkit-box; display: -webkit-flex; display: flex; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-flex: 1; flex-wrap: wrap; \/*align-items: flex-start; align-content: flex-start;*\/}"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"footer\">\n\t<div class=\"flex\">\n\t  <div class=\"inBox vCenter\">\n\t\t<div>\n\t\t  <img\n\t\t\tsrc=\"\/\/cdn.shopify.com\/s\/files\/1\/0763\/0510\/5185\/files\/meiboku-ec-logo.svg\"\n\t\t\talt=\"\"\n\t\t  \/>\n\t\t  <p>Copyright © 2023 MEIBOKU.<\/p>\n\t\t<\/div>\n\t  <\/div>\n\t\n\t  <div class=\"vCenter\">\n\t\t<div class=\"flex\">\n\t\t\t<ul>\n\t\t\t<li><a href=\"\/\">トップページ<\/a><\/li>\n\t\t\t<li><a href=\"\/\">銘木総研について<\/a><\/li>\n\t\t\t<li><a href=\"\/\">商品一覧<\/a><\/li>\n\t\t\t<li><a href=\"\/\">よくある質問<\/a><\/li>\n\t\t\t<\/ul>\n\t\n\t\t\t<ul>\n\t\t\t<li><a href=\"\/\">カート<\/a><\/li>\n\t\t\t<li><a href=\"\/\">運営会社<\/a><\/li>\n\t\t\t<li><a href=\"\/\">特定商取引法に基づく表記<\/a><\/li>\n\t\t\t<li><a href=\"\/\">プライバシーポリシー<\/a><\/li>\n\t\t\t<li><a href=\"\/\">利用規約<\/a><\/li>\n\t\t\t<li><a href=\"\/\">お問い合わせ<\/a><\/li>\n\t\t\t<\/ul>\n\t\t<\/div>\n\t  <\/div>\n\t<\/div>\n<\/div>",
+        "text_alignment": "center"
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "icon-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Free delivery worldwide",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        },
+        "icon-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Satisfied or refunded",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        },
+        "icon-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Top-notch support",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        },
+        "icon-4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Secure payments",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon-1",
+        "icon-2",
+        "icon-3",
+        "icon-4"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "b8347962-33b5-4a0d-bc89-7fe67a168e89": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/meiboku-ec-logo.svg",
+            "image_width": 150,
+            "link": ""
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "disabled": true,
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>Sign up to our newsletter to receive exclusive offers.<\/p>",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "d931f65a-93c5-407a-83d1-f37acf36323f": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "About our store",
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
+            "enable_follow_on_shop": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "銘木総研株式会社",
+            "content": "<p>私たちは、“一本”の名木に着眼し、その史実、いわれを調査研究しております。<br\/>そして世界へ発信するために様々なプロジェクトを立ち上げています。<\/p>",
+            "enable_follow_on_shop": true
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": false
+          }
+        }
+      },
+      "block_order": [
+        "b8347962-33b5-4a0d-bc89-7fe67a168e89",
+        "newsletter",
+        "d931f65a-93c5-407a-83d1-f37acf36323f",
+        "text",
+        "links"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "69e934a2-7e58-4257-9e7d-fc5fcd7050cc",
+    "text-with-icons",
+    "footer"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "category": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>商品について<\/strong>",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "question": "木の保管方法について",
+            "answer": "<p>一般的には、生木の保存期間は数ヶ月、乾燥木の保存期間は数年、加工された木材の保存期間は数十年です。<\/p><p>生木は、水分を多く含んでいるため、腐敗や虫食いの原因となります。そのため、乾燥させる必要があります。乾燥木は、水分を失っているため、腐敗や虫食いに強くなっています。しかし、長期間保存すると、変色や割れなどの劣化が起こることがあります。<\/p><p>加工された木材は、生木や乾燥木よりもさらに保存性が高いです。しかし、それでも長期間保存すると、変色や割れなどの劣化が起こることがあります。<\/p><p>木の商品を長期間保存するには、次の点に注意してください。<\/p><ul><li>乾燥した場所に保管する。<\/li><li>直射日光を避ける。<\/li><li>湿気を避ける。<\/li><li>虫食いの予防をする。<\/li><\/ul>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        },
+        "df3f328d-a9d5-4e28-a34c-e5caee49ef22": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>配送について<\/strong>",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "403efa79-cb06-495b-afe1-14369f6ee99e": {
+          "type": "question",
+          "settings": {
+            "question": "配送日時",
+            "answer": "<p>注文から2〜3日で商品が届きます。ただし、配送業者や配送日時指定、地域によっては、到着が遅れる場合があります。<\/p><p>離島や一部の地域では、商品の到着がさらに遅れる場合があります。<\/p>"
+          }
+        },
+        "8556f046-2ed9-4b66-b357-2c2895b52ea8": {
+          "type": "question",
+          "settings": {
+            "question": "配送方法",
+            "answer": "<p>ECサイトでは、配送方法をいくつか選択できます。一般的な配送方法は、次のとおりです。配送方法によって、送料や配達時間が異なります。<\/p><p><\/p><p>離島や一部の地域では、配送料金が割高になる場合があります。また、配達時間が遅れる場合があります。離島や一部の地域で商品を購入する場合は、事前にECサイトに確認することをおすすめします。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category",
+        "question-1",
+        "question-2",
+        "question-3",
+        "df3f328d-a9d5-4e28-a34c-e5caee49ef22",
+        "403efa79-cb06-495b-afe1-14369f6ee99e",
+        "8556f046-2ed9-4b66-b357-2c2895b52ea8"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "よくある質問",
+        "title": "FAQ",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "faq"
+  ]
+}
