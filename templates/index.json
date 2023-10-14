@@ -619,7 +619,7 @@
         "44148c6c-7993-43d8-9275-b8c048920e4e": {
           "type": "collection",
           "settings": {
-            "collection": "product-list",
+            "collection": "test1",
             "products_count": 8,
             "title": "",
             "link_url": "",

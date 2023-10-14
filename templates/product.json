@@ -5,7 +5,8 @@
       "blocks": {
         "vendor": {
           "type": "vendor",
-          "settings": {}
+          "settings": {
+          }
         },
         "title": {
           "type": "title",
@@ -21,11 +22,13 @@
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {}
+          "settings": {
+          }
         },
         "separator": {
           "type": "separator",
-          "settings": {}
+          "settings": {
+          }
         },
         "description": {
           "type": "description",
@@ -39,13 +42,14 @@
           "settings": {
             "hide_sold_out_variants": false,
             "selector_type": "block",
-            "color_selector_type": "color",
+            "color_selector_type": "block",
             "size_chart_page": ""
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {}
+          "settings": {
+          }
         },
         "88e48e3b-7097-416d-884e-452502b63cd3": {
           "type": "inventory",
@@ -86,7 +90,8 @@
         },
         "f6ddfa3b-68d3-4dc4-a9bf-9869d4e80ce7": {
           "type": "share_buttons",
-          "settings": {}
+          "settings": {
+          }
         },
         "d052bb4a-5651-4dc5-874a-1c759e8886ee": {
           "type": "rating",
@@ -113,14 +118,14 @@
         "d052bb4a-5651-4dc5-874a-1c759e8886ee"
       ],
       "settings": {
-        "container_size": "lg",
+        "container_size": "full",
         "product_info_size": 35,
         "show_sticky_add_to_cart": true,
-        "center_basic_info": false,
-        "desktop_media_layout": "grid",
+        "center_basic_info": true,
+        "desktop_media_layout": "carousel_dots",
         "desktop_media_grid_gap": 30,
-        "mobile_controls": "dots",
-        "enable_media_autoplay": false,
+        "mobile_controls": "free_scroll",
+        "enable_media_autoplay": true,
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3
@@ -144,18 +149,6 @@
     },
     "16868183233069af24": {
       "type": "apps",
-      "blocks": {
-        "f6395083-4732-4c90-9fa3-a8407cfaf330": {
-          "type": "shopify:\/\/apps\/wishlist-hero\/blocks\/custom-product-button\/a9a5079b-59e8-47cb-b659-ecf1c60b9b72",
-          "settings": {
-            "addedCssClassNames": "",
-            "addedContainerStyles": ""
-          }
-        }
-      },
-      "block_order": [
-        "f6395083-4732-4c90-9fa3-a8407cfaf330"
-      ],
       "settings": {
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
@@ -164,26 +157,6 @@
     },
     "168713658148324f21": {
       "type": "apps",
-      "blocks": {
-        "52d5f35d-d416-478f-bff7-20a7b3404906": {
-          "type": "shopify:\/\/apps\/wishlist-hero\/blocks\/header-icon\/a9a5079b-59e8-47cb-b659-ecf1c60b9b72",
-          "settings": {
-            "customThemeName": "~",
-            "useCustomHeaderColor": false,
-            "customHeaderColor": "",
-            "useCustomHeaderSize": false,
-            "customHeaderIconSize": 22,
-            "additionalIconCssClassNames": "",
-            "additionalIconStyle": "",
-            "additionalContainerClasses": "",
-            "additionalContainerStyle": "",
-            "replaceExistingClasses": false
-          }
-        }
-      },
-      "block_order": [
-        "52d5f35d-d416-478f-bff7-20a7b3404906"
-      ],
       "settings": {
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
@@ -213,7 +186,6 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/angled-tree-branches-and-green-leaves.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
