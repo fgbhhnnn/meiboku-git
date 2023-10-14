@@ -6,7 +6,6 @@
         "template--19430548537633__e2cfe560-b401-4b08-ab5d-4a20316ee9f1-1686884691c2917c10-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/keagan-henman-HGs-1dUbK_c-unsplash.jpg",
             "subheading": "Tell your story",
             "title": "Slide 1",
             "mobile_text_position": "place-self-center text-center",
@@ -32,7 +31,6 @@
         "template--19430548537633__e2cfe560-b401-4b08-ab5d-4a20316ee9f1-1686884691c2917c10-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slider-2.jpg",
             "subheading": "Tell your story",
             "title": "Slide 2",
             "mobile_text_position": "place-self-center text-center",
@@ -60,7 +58,9 @@
         "template--19430548537633__e2cfe560-b401-4b08-ab5d-4a20316ee9f1-1686884691c2917c10-0",
         "template--19430548537633__e2cfe560-b401-4b08-ab5d-4a20316ee9f1-1686884691c2917c10-1"
       ],
-      "custom_css": [],
+      "custom_css": [
+
+      ],
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,
@@ -74,7 +74,6 @@
     },
     "slideshow": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "slide-1": {
           "type": "image",
@@ -131,6 +130,7 @@
         "slide-1",
         "slide-2"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,
@@ -172,7 +172,6 @@
     },
     "multi-column": {
       "type": "multi-column",
-      "disabled": true,
       "blocks": {
         "column-1": {
           "type": "image_with_text",
@@ -210,6 +209,7 @@
         "column-2",
         "column-3"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "columns_per_row": 3,
@@ -225,7 +225,6 @@
     },
     "collection-list": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "collection-1": {
           "type": "collection",
@@ -338,6 +337,7 @@
         "collection-5",
         "collection-6"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
@@ -354,7 +354,6 @@
     },
     "before-after": {
       "type": "before-after",
-      "disabled": true,
       "blocks": {
         "before": {
           "type": "before",
@@ -385,6 +384,7 @@
         "before",
         "after"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "subheading": "",
@@ -398,7 +398,6 @@
     },
     "image-with-text-scroll": {
       "type": "images-with-text-scroll",
-      "disabled": true,
       "blocks": {
         "item-1": {
           "type": "image_with_text",
@@ -439,6 +438,7 @@
         "item-2",
         "item-3"
       ],
+      "disabled": true,
       "settings": {
         "image_position": "start",
         "text_alignment": "center",
@@ -453,7 +453,6 @@
     },
     "multiple-media-with-text": {
       "type": "multiple-media-with-text",
-      "disabled": true,
       "blocks": {
         "image-1": {
           "type": "image",
@@ -472,6 +471,7 @@
         "image-1",
         "image-2"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "separate_section_with_border": true,
@@ -516,7 +516,6 @@
     },
     "shop-the-look": {
       "type": "shop-the-look",
-      "disabled": true,
       "blocks": {
         "look-1": {
           "type": "look",
@@ -540,6 +539,7 @@
       "block_order": [
         "look-1"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "subheading": "",
@@ -607,7 +607,6 @@
       ],
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify:\/\/shop_images\/hiking-though-giants.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -672,7 +671,6 @@
       ],
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify:\/\/shop_images\/autumn-trees-hillside.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
@@ -685,7 +683,7 @@
         "template--19430548537633__efbf89cc-dea8-466f-9989-ed3b1ab1f331-16868947768dcfd635-0": {
           "type": "collection",
           "settings": {
-            "collection": "product-list",
+            "collection": "sectional-sofa",
             "products_count": 8,
             "title": "",
             "link_url": "",

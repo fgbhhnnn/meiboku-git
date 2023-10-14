@@ -28,7 +28,9 @@
     "checkout_accent_color": "#576b5c",
     "checkout_button_color": "#576b5c",
     "heading_color": "#303030",
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Allure": {
