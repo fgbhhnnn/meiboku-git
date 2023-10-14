@@ -40,9 +40,9 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "hide_sold_out_variants": false,
+            "hide_sold_out_variants": true,
             "selector_type": "block",
-            "color_selector_type": "block",
+            "color_selector_type": "color",
             "size_chart_page": ""
           }
         },
